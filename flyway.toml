@@ -22,3 +22,15 @@ filterFile = "filter.rgf"
 
 [redgateCompare.mysql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
+
+[environments.qa]
+url = "jdbc:mysql://localhost"
+schemas = [ "qa1" ]
+
+[environments.stage]
+url = "jdbc:mysql://localhost"
+schemas = [ "stage1" ]
+
+[environments.prod]
+url = "jdbc:mysql://localhost"
+schemas = [ "prod1" ]
