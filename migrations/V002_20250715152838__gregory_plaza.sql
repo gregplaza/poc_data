@@ -1,5 +1,5 @@
--- Create the product table
-CREATE TABLE `product` (
+
+ CREATE TABLE `product` (
   `product_id` int(11) NOT NULL AUTO_INCREMENT COMMENT 'primary key',
   `product_code` varchar(40) DEFAULT NULL COMMENT 'code for the product',
   `product_name` varchar(200) DEFAULT NULL,
