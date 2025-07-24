@@ -18,4 +18,4 @@ INSERT INTO city (name, country_code) VALUES
 ('Phoenix', 'USA');
 
 INSERT INTO city (name, country_code) VALUES
-('Guadalajara', 'MEX-Jalisco'),
+('Guadalajara', 'MEX-Jalisco');
