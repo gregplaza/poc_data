@@ -17,3 +17,5 @@ INSERT INTO city (name, country_code) VALUES
 ('Houston', 'USA'),
 ('Phoenix', 'USA');
 
+INSERT INTO city (name, country_code) VALUES
+('Guadalajara', 'MEX');
